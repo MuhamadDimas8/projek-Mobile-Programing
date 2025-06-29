@@ -1,0 +1,32 @@
+name: tugas_listview
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  salomon_bottom_bar: ^3.3.2
+  icons_plus: ^5.0.0
+  google_maps_flutter: ^2.12.2
+  camera: ^0.10.5+5
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+  sms_autofill: ^2.3.0
+  fl_chart: ^0.64.0 # ✅ Tambahan untuk fitur grafik
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
